@@ -11,9 +11,54 @@ img{
 }
 input{
   position: fixed;
-  margin: 332px 415px;
+  margin: 335px 407px;
   padding: 5px;
-  width: 480px;
+  width: 488px;
   height: 25px;
   max-height: 250px;
+}
+.nav{
+  font-size: 15px;
+  font-family: arial, sans-serif;
+  display: inline-block;
+  position: fixed;
+  margin-left: 950px;
+  z-index: 1;
+  text-decoration: none;
+}
+#user{
+  font-size: inherit;
+  display: inherit;
+  position: relative;
+  margin-top: 10px;
+  margin-right: 0;
+  padding: 0;
+  text-decoration: inherit;
+  opacity: .55;
+}
+.link{
+  font-size: inherit;
+  display: inherit;
+  position: relative;
+  text-decoration: inherit;
+  opacity: .75;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.link:visited{
+  color: inherit;
+}
+#gmail{
+  margin-left: 70px;
+  margin-top: -17.5px;
+}
+#images{
+  margin-left: 140px;
+  margin-top: -18.5px;
+}
+#apps{
+  display: block;
+  position: fixed;
+  margin: 100px;
 }
