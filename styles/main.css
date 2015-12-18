@@ -1,0 +1,19 @@
+html{
+  background-color: #fff;
+}
+img{
+  display: block;
+  position: fixed;
+  margin: 0 auto;
+  padding: 175px 430px;
+  max-width: 450px;
+  height: auto;
+}
+input{
+  position: fixed;
+  margin: 332px 415px;
+  padding: 5px;
+  width: 480px;
+  height: 25px;
+  max-height: 250px;
+}
