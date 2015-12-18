@@ -1,12 +1,12 @@
 html{
   background-color: #fff;
 }
-img{
+#logo{
   display: block;
   position: fixed;
   margin: 0 auto;
-  padding: 175px 430px;
-  max-width: 450px;
+  padding: 175px 480px;
+  max-width: 350px;
   height: auto;
 }
 input{
@@ -22,9 +22,12 @@ input{
   font-family: arial, sans-serif;
   display: inline-block;
   position: fixed;
-  margin-left: 950px;
+  margin-left: 900px;
   z-index: 1;
   text-decoration: none;
+}
+ul{
+  list-style-type: none;
 }
 #user{
   font-size: inherit;
@@ -42,6 +45,7 @@ input{
   position: relative;
   text-decoration: inherit;
   opacity: .75;
+  float: left;
 }
 .link:hover{
   text-decoration: underline;
@@ -54,11 +58,43 @@ input{
   margin-top: -17.5px;
 }
 #images{
-  margin-left: 140px;
-  margin-top: -18.5px;
+  margin-left: 20px;
+  margin-top: -18px;
+  float: left;
 }
 #apps{
-  display: block;
-  position: fixed;
-  margin: 100px;
+  display: inline-block;
+  position: relative;
+  margin-top: -19px;
+  margin-left: 200px;
+  float: left;
+}
+#alerts{
+  display: inline-block;
+  position: relative;
+  margin-top: -20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  float: left;
+}
+div ul li img{
+  max-width: 20px;
+  height: auto;
+  opacity: .8;
+}
+div ul li img:hover{
+  opacity: 1;
+}
+#profile{
+  max-width: 35px;
+  height: auto;
+  border-radius: 25px;
+  opacity: 1;
+}
+#final{
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-top: -25px;
+  /*margin-left: 10px;*/
 }
