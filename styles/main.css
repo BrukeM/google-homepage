@@ -1,27 +1,55 @@
 html{
   background-color: #fff;
 }
+/* LOGO, SEARCH BAR, BUTTONS */
 #logo{
   display: block;
-  position: fixed;
+  position: absolute;
   margin: 0 auto;
   padding: 175px 480px;
   max-width: 350px;
   height: auto;
 }
-input{
-  position: fixed;
+form{
+  position: absolute;
   margin: 335px 407px;
+}
+input{
+  position: relative;
   padding: 5px;
   width: 488px;
   height: 25px;
   max-height: 250px;
 }
+button{
+  display: inline-block;
+  position: relative;
+  border: none;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+button:hover{
+  box-shadow:
+  0 1px 2px #fff,
+  0 -1px 1px #666,
+  inset 0 -1px 1px rgba(0,0,0,0.5),
+  inset 0 1px 1px rgba(255,255,255,0.8);
+}
+#search{
+  margin-left: 90px;
+}
+#lucky{
+  margin-left: 30px;
+}
+/* TOP NAVIGATION BAR */
 .nav{
   font-size: 15px;
   font-family: arial, sans-serif;
   display: inline-block;
-  position: fixed;
+  position: absolute;
   margin-left: 900px;
   z-index: 1;
   text-decoration: none;
@@ -34,12 +62,12 @@ ul{
   display: inherit;
   position: relative;
   margin-top: 10px;
-  margin-right: 0;
   padding: 0;
   text-decoration: inherit;
   opacity: .55;
 }
 .link{
+  font-family: inherit;
   font-size: inherit;
   display: inherit;
   position: relative;
@@ -72,10 +100,9 @@ ul{
 #alerts{
   display: inline-block;
   position: relative;
-  margin-top: -20px;
-  margin-left: 20px;
-  margin-right: 10px;
-  float: left;
+  top: -33px;
+  right: -125px;
+
 }
 div ul li img{
   max-width: 20px;
@@ -94,7 +121,42 @@ div ul li img:hover{
 #final{
   display: inline-block;
   position: relative;
+  top: -25px;
+  right: -135px;
+}
+/* BOTTOM NAVIGATION BAR */
+#footer{
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 20px;
+  min-width: 1300px;
+  max-width: 100%;
+  height: 50px;
+  background-color: #d9d9d9;
+}
+#left li, #right li{
+  display: inline;
+  padding-right: 30px;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  opacity: .75;
+  float: left;
+}
+#left li a, #right li a{
+  text-decoration: none;
+}
+#left li a:visited, #right li a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+#left li a:hover, #right li a:hover{
+  text-decoration: underline;
+}
+#left{
+  float: left;
+}
+#right{
   float: right;
-  margin-top: -25px;
-  /*margin-left: 10px;*/
 }
